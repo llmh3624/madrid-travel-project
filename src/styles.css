@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #0a164c;
 }
 
 .container {
@@ -10,6 +10,11 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.palma-buildings {
+  width: 570px;
+  height: 461px;
 }
 
 .grid {
@@ -70,7 +75,7 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #19178d;
   text-decoration: none;
 }
 
@@ -121,7 +126,7 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: #0a164c;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
@@ -141,7 +146,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #0a164c;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -150,7 +155,7 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: #0a164c;
   margin: 0;
 }
 
@@ -158,7 +163,7 @@ main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  color: #272044;
+  color: #0a164c;
   margin: 0;
 }
 
@@ -167,25 +172,25 @@ main h5 {
   font-size: 13px;
   margin: 0;
   line-height: 1;
-  color: #272044;
+  color: #0a164c;
 }
 
 main p {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
-  color: #272044;
+  color: #0a164c;
   opacity: 0.7;
 }
 
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(21, 21, 52, 0.9),
+      rgba(10, 15, 58, 0.9)
     ),
-    url("../images/lisbon-footer.png");
+    url("../images/palma-footer.jpeg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,13 +215,19 @@ footer ul {
 
 footer li {
   list-style: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 
 footer a {
   color: white;
   opacity: 0.7;
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: 600;
+  opacity: 1;
 }
 
 @media (max-width: 960px) {
